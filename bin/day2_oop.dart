@@ -22,6 +22,7 @@ abstract class Person{
   double? salary;
   String? email;
 
+
   Person({this.age,required this.name,this.salary = 0,this.email});
 
   void printData(){
@@ -57,6 +58,8 @@ class Doctor extends Person{
   void printName() {
     print("this is doctor class");
   }
+
+  // test
 
 
 
